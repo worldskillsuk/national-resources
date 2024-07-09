@@ -1,0 +1,14 @@
+{
+  "name": "wsuk2024-stage3-demo",
+  "version": "1.0.0",
+  "description": "Demo for Stage 3 of the 2024 WorldSkills UK Web Development skills competition.",
+  "main": "index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "author": "Lewis Newton",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
