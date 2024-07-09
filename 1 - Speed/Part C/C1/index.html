@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed C1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Speed C1</h1>
+    </header>
+    <main>
+        <div class="window">
+            <div class="container">
+                <div class="colors-container">
+                    <div id="color-buttons-left" class="color-buttons"></div>
+                    <input id="color-input-left" class="color-input" type="text" placeholder="#FF0000" aria-label="Color Input Left">
+                </div>
+                <div id="gradient-square" class="gradient-square"></div>
+                <div class="colors-container">
+                    <div id="color-buttons-right" class="color-buttons"></div>
+                    <input id="color-input-right" class="color-input" type="text" placeholder="#0000FF" aria-label="Color Input Right">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="dynamicFooter">
+    </footer>
+    <script>
+        document.getElementById('dynamicFooter').innerHTML = '&copy; ' + new Date().getFullYear() + ' WSUK Speed | All rights reserved.';
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

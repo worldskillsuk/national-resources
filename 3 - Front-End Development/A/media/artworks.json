@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "london-katsushika-hokusai-01",
+    "title": "London In The Style Of Katsushika Hokusai (1)",
+    "description": "Generated using starryai. Seed 9034312016.",
+    "country": "GB-ENG"
+  },
+  {
+    "slug": "london-katsushika-hokusai-02",
+    "title": "London In The Style Of Katsushika Hokusai (2)",
+    "description": "Generated using starryai. Seed 9034312016.",
+    "country": "GB-ENG"
+  },
+  {
+    "slug": "london-katsushika-hokusai-03",
+    "title": "London In The Style Of Katsushika Hokusai (3)",
+    "description": "Generated using starryai. Seed 9034312016.",
+    "country": "GB-ENG"
+  },
+  {
+    "slug": "london-katsushika-hokusai-04",
+    "title": "London In The Style Of Katsushika Hokusai (4)",
+    "description": "Generated using starryai. Seed 9034312016.",
+    "country": "GB-ENG"
+  },
+  {
+    "slug": "tokyo-thomas-kinkade-01",
+    "title": "Tokyo In The Style Of Thomas Kinkade (1)",
+    "description": "Generated using starryai. Seed 9060958108.",
+    "country": "JP"
+  },
+  {
+    "slug": "tokyo-thomas-kinkade-02",
+    "title": "Tokyo In The Style Of Thomas Kinkade (2)",
+    "description": "Generated using starryai. Seed 9060958108.",
+    "country": "JP"
+  },
+  {
+    "slug": "tokyo-thomas-kinkade-03",
+    "title": "Tokyo In The Style Of Thomas Kinkade (3)",
+    "description": "Generated using starryai. Seed 9060958108.",
+    "country": "JP"
+  },
+  {
+    "slug": "tokyo-thomas-kinkade-04",
+    "title": "Tokyo In The Style Of Thomas Kinkade (4)",
+    "description": "Generated using starryai. Seed 9060958108.",
+    "country": "JP"
+  },
+  {
+    "slug": "edinburgh-fantasy",
+    "title": "Edinburgh Fantasy",
+    "description": "Generated using Juggernaut XL v8.",
+    "country": "GB-SCT"
+  },
+  {
+    "slug": "edinburgh-nightcafe",
+    "title": "Edinburgh NightCafe",
+    "description": "Generated using NightCafe.",
+    "country": "GB-SCT"
+  },
+  {
+    "slug": "cardiff-neo",
+    "title": "Cardiff Neo Impressionist",
+    "description": "Generated using NightCafe (Neo Preset).",
+    "country": "GB-CYM"
+  },
+  {
+    "slug": "belfast-nightcafe",
+    "title": "Belfast NightCafe",
+    "description": "Generated using NightCafe.",
+    "country": "GB-NIR"
+  }
+]

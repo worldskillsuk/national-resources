@@ -1,0 +1,119 @@
+body, h1, header, main, footer, div {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #87CEEB;
+    transition: background-color 2s ease;
+}
+
+header {
+	background-color: #f5f5f5;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+    box-sizing: border-box; 
+}
+#scene {
+  position: relative;
+  width: 1200px; 
+  max-width: 100%; 
+  margin: auto;
+  background-color: transparent; 
+  overflow: hidden; 
+  height: 100vh; 
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto; 
+}
+
+.celestial, #cloud {
+	position: absolute;
+	z-index: 2;
+}
+
+#cloud {
+    opacity: 0.8; 
+    position: absolute;
+    right: -100px; 
+}
+
+.celestial {
+    opacity: 0; 
+    position: absolute;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+#sun {
+    padding-top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1; /* Sun is visible by default */
+}
+
+#moon {
+    padding-top: 10%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Moon is hidden by default */
+}
+
+#nightButton, #dayButton {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	position: fixed; 
+	bottom: 5%; 
+}
+
+#nightButton {
+	background-color: #000;
+	color: #fff;
+	left: 10px;
+}
+
+#dayButton {
+	background-color: #ff0;
+	color: #000;
+	right: 10px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1rem;
+	background-color: #f5f5f5;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+
+/*DO NOT MODIFY ANY CODE ABOVE*/
+/*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+
+
+/* Daytime styles */
+
+
+
+/* Nighttime styles */

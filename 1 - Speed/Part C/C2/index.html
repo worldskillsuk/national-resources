@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed C2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Speed C2</h1>
+    </header>
+    <div id="timer">
+        <div class="segment" id="seconds-hundreds">0</div>
+        <div class="segment" id="seconds-tens">0</div>
+        <div class="segment" id="seconds-ones">0</div>
+        <div class="colon">:</div>
+        <div class="segment" id="centiseconds-tens">0</div>
+        <div class="segment" id="centiseconds-ones">0</div>
+    </div>
+    <div id="controls">
+        <button id="startBtn">Start Timer</button>
+        <button id="stopBtn">Stop Timer</button>
+        <button id="resetBtn">Reset Timer</button>
+    </div>
+    <footer id="dynamicFooter">
+    </footer>
+    <script>
+        document.getElementById('dynamicFooter').innerHTML = '&copy; ' + new Date().getFullYear() + ' WSUK Speed | All rights reserved.';
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
