@@ -2,6 +2,6 @@
 
 ## Structure
 
-The [src/](src/) folder contains all source files of a completed demo of the test project
+The [src/](src/) folder contains all source files of a completed demo of the test project to be used as example.
 
-The [dist/](dist/) folder contains public files that are required for the test project
+The [dist/](dist/) folder contains public files that are required for the test project.
