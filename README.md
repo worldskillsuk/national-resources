@@ -90,7 +90,7 @@ We welcome contributions to make this repository even more impactful. If you hav
 
 For further information or assistance:
 - **Val Adamescu**  
-  International Training Manager  
+  National Competition Organiser & International Training Manager  
   [val.adamescu@port.ac.uk](mailto:val.adamescu@port.ac.uk)
 
 ---
