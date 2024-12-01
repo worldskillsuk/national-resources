@@ -95,4 +95,4 @@ For further information or assistance:
 
 ---
 
-Explore. Practice. Excel. Good luck in your web development journey and the WSUK competition!
+Explore. Practice. Excel. Good luck in your web development journey and the [WSUK Web Development Competition](https://www.worldskillsuk.org/competitions/web-development/)!
