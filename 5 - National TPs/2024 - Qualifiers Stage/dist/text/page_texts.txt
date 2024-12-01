@@ -1,0 +1,94 @@
+--Hero 
+
+Unlock Your Full Potential.
+
+Ready to go further, faster? Put your skills to the test in the ultimate Web Development competition. 
+
+--About
+What is WorldSkills UK?
+
+We're a charity focused on supporting young people across the UK via competitions-based training.
+
+We give learners the skills they need to achieve world-class standards and go further, faster in their careers.
+
+One of the many ways we champion the next generation of high-flyers is by hosting skills competitions. We design these to foster key skills for the UK economy, including digital skills. 
+
+
+--Benefits
+
+Recognition
+Our competitions put the spotlight on the best young talent the UK has to offer.
+
+
+Skills Development
+Our competitions provide a platform for young people to enhance their web design and development skills.
+
+Networking Opportunities
+Our ever-growing network connects learners with industry professionals and fellow participants.
+
+
+--Who Do We Help?
+
+Educators & Tutors
+We share international best practice, to deliver high-quality training and assessment.
+
+Young People & Parents
+We inspire young people to choose high-quality career routes via apprenticeships and technical education.
+
+Employers & Organisations
+We innovate by benchmarking with skills systems to inform policy and practice and boost the UK economy.
+
+
+--Why Compete?
+
+No matter how far learners progress through the competition cycle, they will develop key skills that will last a lifetime.
+On top of that, they'll become recognised as being some of the top performers in the UK and have the chance to expand their professional network.
+
+--What is the Web Development Skills Competition?
+
+The Web Development skills competition is a multi-day event. It allows competitors to demonstrate their knowledge and ability through several small projects.
+The projects — split across four modules — cover various aspects of full-stack web development. Namely, they assess the following core competencies: 
+
+  Work Organisation and Management
+  Communication and Interpersonal Skills
+  Speed
+  Design Implementation
+  Front-End Development
+  Back-End Development
+
+--Ready to Put Your Skills to the Test?
+Don't miss out on the opportunity to showcase your skills and compete against the best in the UK. Register today to take part! 
+
+
+Contact Us
+Phone 0800 612 0742
+E-mail getintouch@worldskillsuk.org
+
+Office
+
+332
+Third Floor
+25 Wilton Road
+London
+SW1V 1LW
+
+WorldSkills UK is a registered charity in England; Charity number 1001586. 
+
+--Used icons (FontAwesome)
+-Section - "Who Do We Help?"
++fa-graduation-cap
++fa-seedling
++fa-briefcase
+
+-Section - "Benefits"
++fa-trophy
++fa-arrow-trend-up
++fa-globe
+
+-Section - "What is the Web Development Skills Competition?"
++fa-cube
+
+---
+Aditional text (it can be used in the 'Insights' section if required)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet ligula eu risus placerat sollicitudin. Ut quis odio justo. Donec in viverra odio, id finibus velit. Suspendisse potenti. Nullam eget sapien nisl. Aenean vulputate pretium felis, a ultricies felis facilisis in. Suspendisse vel felis a lorem sagittis ornare. Curabitur lacus felis, iaculis nec leo nec, elementum dignissim mi. Nunc tristique at erat at faucibus. Phasellus sed leo nec augue fringilla viverra vel finibus ipsum. 

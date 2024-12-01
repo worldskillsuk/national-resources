@@ -1,0 +1,10 @@
+{
+  "name": "wsuk2024-stage3",
+  "version": "1.0.0",
+  "description": "Test Project for Stage 3 of the 2024 WorldSkills UK Web Development skills competition.",
+  "author": "Lewis Newton",
+  "dependencies": {
+    "@fontsource/open-sans": "5.0.28",
+    "@fortawesome/fontawesome-free": "6.5.2"
+  }
+}
