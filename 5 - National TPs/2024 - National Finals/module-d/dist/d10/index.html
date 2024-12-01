@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Speed D10</h1>
+    </header>
+
+    <main>
+      <!--Put your code here if required-->
+      <div>
+        <div class="input-container">
+          <input type="number" id="num1" placeholder="Enter first number" />
+          <input type="number" id="num2" placeholder="Enter second number" />
+        </div>
+        <div>
+          <button id="add" class="operation">+</button>
+          <button id="subtract" class="operation">-</button>
+          <button id="multiply" class="operation">×</button>
+          <button id="divide" class="operation">÷</button>
+        </div>
+        <button id="clear">Clear</button>
+        <!-- Clear button -->
+        <div id="result">Result:</div>
+      </div>
+    </main>
+    <!--Do not modify any code after this line-->
+    <script src="js/calculator.js"></script>
+    <footer id="dynamicFooter"></footer>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

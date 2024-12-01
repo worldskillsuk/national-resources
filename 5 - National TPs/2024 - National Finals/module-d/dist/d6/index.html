@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--Put your code here-->
+
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter" class="section-footer"></footer>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

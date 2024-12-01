@@ -1,0 +1,247 @@
+/* :root Variables */
+:root {
+  /* Colors */
+  --color-bg: #f9f9f9;
+  --color-border: #ddd;
+  --color-text: #555;
+  --color-primary: #4caf50;
+  --color-header-footer: #f5f5f5;
+  --color-all-filter: #000;
+  --color-work: #007bff;
+  --color-personal: #28a745;
+  --color-urgent: #dc3545;
+  --color-edit: #ff9800;
+  --color-delete: #f44336;
+  --color-white: #ffffff;
+
+  /* Sizes */
+  --padding-default: 10px;
+  --border-radius: 4px;
+  --font-size-small: 12px;
+  --font-size-default: 14px;
+  --font-size-large: 16px;
+  --checkbox-size: 20px;
+  --button-width: 100px;
+  --edit-delete-width: 70px;
+}
+
+body,
+h1,
+header,
+main,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  background-color: var(--color-header-footer);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: var(--color-header-footer);
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+#copyrightYear {
+  font-weight: bold;
+}
+
+/* Styles for the To-Do List App */
+/* Styles for the To-Do List App */
+.todo-app {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.todo-input {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-default);
+  margin-bottom: 20px;
+}
+
+.todo-input input,
+.todo-input select,
+.todo-input button {
+  padding: var(--padding-default);
+  font-size: var(--font-size-large);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+}
+
+.todo-input button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
+  border: none;
+}
+
+.todo-filters {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  gap: var(--padding-default);
+}
+
+.todo-filters button {
+  padding: var(--padding-default);
+  font-size: var(--font-size-default);
+  cursor: pointer;
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius);
+  width: var(--button-width);
+}
+
+/* Specific colors for each filter button */
+.todo-filters button:nth-child(1) {
+  background-color: var(--color-all-filter);
+}
+
+.todo-filters button:nth-child(2) {
+  background-color: var(--color-work);
+}
+
+.todo-filters button:nth-child(3) {
+  background-color: var(--color-personal);
+}
+
+.todo-filters button:nth-child(4) {
+  background-color: var(--color-urgent);
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding-default);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--padding-default);
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task-info input[type='checkbox'] {
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  accent-color: var(--color-primary);
+  cursor: pointer;
+  margin-right: var(--padding-default);
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background-color: var(--color-white);
+  position: relative;
+  appearance: none;
+}
+
+.task-info input[type='checkbox']:checked {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.task-info input[type='checkbox']:checked::before {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--font-size-large);
+  color: var(--color-white);
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+.task-description {
+  font-size: var(--font-size-default);
+  color: var(--color-text);
+  margin-top: 4px;
+}
+
+.completed .task-title,
+.completed .task-description {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Category label styles */
+.task-category {
+  font-size: var(--font-size-small);
+  padding: 2px 6px;
+  border-radius: var(--border-radius);
+  margin-left: var(--padding-default);
+  font-weight: bold;
+  color: var(--color-white);
+}
+
+.task-category.work {
+  background-color: var(--color-work);
+}
+
+.task-category.personal {
+  background-color: var(--color-personal);
+}
+
+.task-category.urgent {
+  background-color: var(--color-urgent);
+}
+
+.task-actions button {
+  margin-left: 5px;
+  padding: var(--padding-default);
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-size: var(--font-size-default);
+  color: var(--color-white);
+}
+
+.edit-btn {
+  background-color: var(--color-edit);
+  width: var(--edit-delete-width);
+}
+
+.delete-btn {
+  background-color: var(--color-delete);
+  width: var(--edit-delete-width);
+}
+
+/*DO NOT MODIFY ANY CODE ABOVE*/
+/*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/

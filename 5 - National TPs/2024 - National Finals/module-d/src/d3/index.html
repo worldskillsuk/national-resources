@@ -1,0 +1,37 @@
+<!--Do not modify any code after this line-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compress Folder</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Speed D3</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Compress Folder</h1>
+        <label for="folderInput">Select a folder to compress:</label>
+        <input type="file" id="folderInput" webkitdirectory multiple />
+        <button id="compressBtn">Compress</button>
+        <div id="status"></div>
+      </div>
+    </main>
+
+    <footer id="dynamicFooter"></footer>
+
+    <script src="js/jszip.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+/*CSS*/
+body,
+h1,
+header,
+main,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+#copyrightYear {
+  font-weight: bold;
+}
+/*DO NOT MODIFY ANY CODE ABOVE*/
+/*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+
+.flag-container {
+  width: 500px;
+  height: 400px;
+  background-color: #de2910;
+  position: relative;
+}
+
+.large-star {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.small-star {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.small-star:nth-child(2) {
+  top: 32px; /* Adjusted top position */
+  left: 180px;
+  transform: rotate(-25deg); /* Adjusted rotation */
+}
+
+.small-star:nth-child(3) {
+  top: 68px; /* Adjusted top position */
+  left: 210px;
+  transform: rotate(-5deg); /* Adjusted rotation */
+}
+
+.small-star:nth-child(4) {
+  top: 120px;
+  left: 220px;
+  transform: rotate(20deg); /* Adjusted rotation */
+}
+
+.small-star:nth-child(5) {
+  top: 165px; /* Adjusted top position */
+  left: 200px;
+  transform: rotate(45deg); /* Adjusted rotation */
+}

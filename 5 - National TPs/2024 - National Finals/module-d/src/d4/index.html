@@ -1,0 +1,50 @@
+<!--Do not modify any code after this line-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date converter</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Speed D4</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="date-inputs">
+          <div class="input-group">
+            <label for="day">Day</label>
+            <input type="number" id="day" placeholder="DD" min="1" max="31" />
+          </div>
+          <div class="input-group">
+            <label for="month">Month</label>
+            <input type="number" id="month" placeholder="MM" min="1" max="12" />
+          </div>
+          <div class="input-group">
+            <label for="year">Year</label>
+            <input type="number" id="year" placeholder="YYYY" min="1" />
+          </div>
+        </div>
+
+        <div class="result">
+          <h2>
+            Result :
+            <span id="result">YYYY-MM-DD</span>
+          </h2>
+        </div>
+      </div>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

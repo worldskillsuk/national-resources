@@ -1,0 +1,93 @@
+/*DO NOT MODIFY ANY CODE BELOW*/
+/*CSS*/
+body,
+h1,
+header,
+main,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+#copyrightYear {
+  font-weight: bold;
+}
+
+/* Registration Form Styling */
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-container label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+/*DO NOT MODIFY ANY CODE ABOVE*/

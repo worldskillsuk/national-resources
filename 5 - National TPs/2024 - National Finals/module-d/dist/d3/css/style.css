@@ -1,0 +1,91 @@
+/*CSS*/
+body,
+h1,
+header,
+main,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+#copyrightYear {
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type='file'] {
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 14px;
+  color: green;
+}
+/*DO NOT MODIFY ANY CODE ABOVE*/
+/*IF YOU NEED PUT YOUR CSS CODE FROM THIS POINT ONWARD*/

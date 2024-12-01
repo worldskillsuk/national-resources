@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day & Night</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Speed D2</h1>
+    </header>
+
+    <main>
+      <!--Put yor code here-->
+      <div id="scene">
+        <img id="background" src="img/1.png" alt="Background" />
+        <img id="sun" src="img/2.png" alt="Sun" class="celestial hidden" />
+        <img id="moon" src="img/3.png" alt="Moon" class="celestial hidden" />
+        <img id="cloud" src="img/4.png" alt="Cloud" />
+      </div>
+      <button id="nightButton">NIGHT</button>
+      <button id="dayButton">DAY</button>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WSUK Speed | All rights reserved.';
+    </script>
+  </body>
+</html>

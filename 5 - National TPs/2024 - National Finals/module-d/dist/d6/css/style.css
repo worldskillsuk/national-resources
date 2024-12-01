@@ -1,0 +1,20 @@
+/* Root Variables for Colors */
+:root {
+  /* Text Colors */
+  --color-text-dark: #000000; /* Black */
+
+  /* Background Colors */
+  --color-a-bg: #ff6b6b; /* Section A */
+  --color-b-bg: #4ecdc4; /* Section B */
+  --color-c-bg: #ffb6b9; /* Section C */
+  --color-d-bg: #87ceeb; /* Section D */
+  --color-e-bg: #ffeb99; /* Section E */
+  --color-f-bg: #5b9bd5; /* Section F */
+  --color-footer-bg: #c39bd3; /* Footer */
+}
+
+/*DO NOT MODIFY ANY CODE ABOVE*/
+/*
+PUT YOUR CSS CODE FROM THIS POINT ONWARD
+Use the given colours for sections A, B, C, D, E, F and Footer
+*/

@@ -1,0 +1,67 @@
+* {
+  font-family: sans-serif;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#main-content {
+  max-width: max-content;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+}
+
+#search {
+  width: 100%;
+}
+
+#awards {
+  position: relative;
+  margin-top: 1rem;
+}
+
+#loader {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.125);
+  backdrop-filter: blur(3px);
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#awards-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#awards-table th,
+#awards-table td {
+  border: 1px solid black;
+  padding: 0.5rem 0.75rem;
+}
+
+#pagination-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.sort-arrow {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 0.8em;
+  color: #666;
+  opacity: 0.25;
+}
+
+.sort-arrow.active {
+  opacity: 1;
+}

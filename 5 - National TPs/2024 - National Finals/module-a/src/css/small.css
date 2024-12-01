@@ -1,0 +1,39 @@
+:root {
+  --container-padding: 1rem;
+
+  --gap-xs: 0.5rem;
+  --gap-s: 1rem;
+  --gap-m: 2rem;
+  --gap-l: 3rem;
+  --gap-xl: 4rem;
+  --gap-x2: 5rem;
+}
+
+h2::before {
+  top: -2rem;
+  left: 0;
+  position: absolute;
+  background-image: url(../img/icon.png);
+}
+
+/* Hide elements */
+#lines-2,
+#header-nav {
+  display: none;
+}
+
+.container {
+  padding-top: 0;
+  padding-bottom: 0;
+  justify-content: center;
+}
+
+footer .container {
+  flex-direction: column;
+  text-align: center;
+  gap: var(--gap-m);
+}
+
+#footer-copyright {
+  align-items: center;
+}

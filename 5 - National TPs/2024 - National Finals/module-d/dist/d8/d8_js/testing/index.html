@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration and Validation</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Speed D6</h1>
+    </header>
+    <main>
+      <!--Put your code from this point onward -->
+      <div class="form-container">
+        <h2>Register</h2>
+        <form id="registrationForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <!-- Updated button with ID -->
+          <button type="button" id="registerButton">Register</button>
+        </form>
+        <div id="message"></div>
+      </div>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script src="js/clientside.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Counters</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Speed D5</h1>
+    </header>
+    <main>
+      <!-- You should not need to modify anything in HTML but you can do so -->
+      <button class="add-counter-button" onclick="createCounter()">
+        Add a counter
+      </button>
+      <div class="counters-container" id="countersContainer">
+        <!-- Counters will be added here -->
+      </div>
+    </main>
+    <!-- Do not modify anything below this line -->
+    <footer id="dynamicFooter"></footer>
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

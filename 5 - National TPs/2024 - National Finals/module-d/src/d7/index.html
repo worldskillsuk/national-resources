@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Speed D7</h1>
+    </header>
+    <main>
+      <!--You should not need to modify any code below but if you need you can do so-->
+      <div class="todo-app">
+        <div class="todo-input">
+          <input
+            type="text"
+            id="taskTitle"
+            placeholder="Task Title"
+            aria-label="Task Title"
+          />
+
+          <input
+            type="text"
+            id="taskDescription"
+            placeholder="Task Description"
+            aria-label="Task Description"
+          />
+
+          <select id="taskCategory" aria-label="Task Category">
+            <option value="Work">Work</option>
+            <option value="Personal">Personal</option>
+            <option value="Urgent">Urgent</option>
+          </select>
+
+          <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <div class="todo-filters">
+          <button onclick="filterTasks('All')">All</button>
+          <button onclick="filterTasks('Work')">Work</button>
+          <button onclick="filterTasks('Personal')">Personal</button>
+          <button onclick="filterTasks('Urgent')">Urgent</button>
+        </div>
+        <ul id="taskList" class="task-list">
+          <!-- Tasks will be displayed here -->
+        </ul>
+      </div>
+    </main>
+
+    <!--Do not modify any code below-->
+    <footer id="dynamicFooter"></footer>
+    <script src="js/todo.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

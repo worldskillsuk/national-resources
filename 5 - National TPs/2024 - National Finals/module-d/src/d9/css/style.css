@@ -1,0 +1,111 @@
+/*CSS*/
+body,
+h1,
+header,
+main,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+#copyrightYear {
+  font-weight: bold;
+}
+/*DO NOT MODIFY ANY CODE ABOVE*/
+/*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+
+.image-container {
+  position: relative;
+  width: 650px;
+  height: 375px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease;
+}
+
+.image-container:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(156, 184, 184, 0.4); /* Teal overlay */
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}
+
+.image-container:hover::before {
+  opacity: 0;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition:
+    transform 0.5s ease,
+    filter 0.5s ease;
+  filter: grayscale(100%) blur(2px);
+  transform-origin: center;
+  position: relative;
+  z-index: 0;
+}
+
+.image-container:hover img {
+  transform: scale(1.5) rotate(5deg);
+  filter: grayscale(0%) blur(0px);
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  z-index: 2;
+}
+
+.image-container:hover .caption {
+  opacity: 1;
+}

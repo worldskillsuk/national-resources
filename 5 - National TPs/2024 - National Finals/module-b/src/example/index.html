@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module B Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="main-content">
+      <section>
+        <h1>Awards Table</h1>
+
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search" />
+
+        <div id="awards">
+          <div id="loader">Loading&hellip;</div>
+
+          <table id="awards-table">
+            <thead>
+              <tr>
+                <th>
+                  <span>Member</span>
+                  <span
+                    class="sort-arrow active"
+                    data-column="member"
+                    data-order="asc"
+                  >
+                    &#9650;
+                  </span>
+                  <span
+                    class="sort-arrow"
+                    data-column="member"
+                    data-order="desc"
+                  >
+                    &#9660;
+                  </span>
+                </th>
+                <th>
+                  <span>Gold</span>
+                  <span class="sort-arrow" data-column="gold" data-order="asc">
+                    &#9650;
+                  </span>
+                  <span class="sort-arrow" data-column="gold" data-order="desc">
+                    &#9660;
+                  </span>
+                </th>
+                <th>
+                  <span>Silver</span>
+                  <span
+                    class="sort-arrow"
+                    data-column="silver"
+                    data-order="asc"
+                  >
+                    &#9650;
+                  </span>
+                  <span
+                    class="sort-arrow"
+                    data-column="silver"
+                    data-order="desc"
+                  >
+                    &#9660;
+                  </span>
+                </th>
+                <th>
+                  <span>Bronze</span>
+                  <span
+                    class="sort-arrow"
+                    data-column="bronze"
+                    data-order="asc"
+                  >
+                    &#9650;
+                  </span>
+                  <span
+                    class="sort-arrow"
+                    data-column="bronze"
+                    data-order="desc"
+                  >
+                    &#9660;
+                  </span>
+                </th>
+                <th>
+                  <span><abbr title="Medallion for Excellence">MfE</abbr></span>
+                  <span class="sort-arrow" data-column="mfe" data-order="asc">
+                    &#9650;
+                  </span>
+                  <span class="sort-arrow" data-column="mfe" data-order="desc">
+                    &#9660;
+                  </span>
+                </th>
+                <th>
+                  Total
+                  <span class="sort-arrow" data-column="total" data-order="asc">
+                    &#9650;
+                  </span>
+                  <span
+                    class="sort-arrow"
+                    data-column="total"
+                    data-order="desc"
+                  >
+                    &#9660;
+                  </span>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <!-- Data will be inserted here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <nav id="pagination-controls">
+        <button id="prev-btn">Previous</button>
+        <div>
+          <select id="page-selector"></select>
+          /
+          <span id="total-pages">1</span>
+        </div>
+        <button id="next-btn">Next</button>
+      </nav>
+    </main>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
