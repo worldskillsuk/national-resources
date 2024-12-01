@@ -1,12 +1,12 @@
-# WorldSkills UK 2024, Stage 3, Module C: (Back-End Development)
+# WorldSkills UK 2024, National Files, Module C: (Back-End Development)
 
 ## For Competitors
 
 Distributable files are in [dist](dist). These files are intended to be shared with competitors and include the test project and media files.
 
-## For Experts
+## For Educators
 
-Files relevant to the running of the competition are in [src](src). These files are intended for authorised members only and must NOT be shared with competitors.
+Files relevant to the running of the competition are in [src](src). These files are intended for learning purposes as "reverse engineering" approach.
 
 ### Example Solution
 
